@@ -1,4 +1,10 @@
+# Lennie's fork
+
+Notes: all edits to be made on branch `lennie_main` to help facilitate potential later contributions to Wessel's original repo.
+ 
+
 # [Neural Processes](http://github.com/wesselb/neuralprocesses)
+
 
 [![CI](https://github.com/wesselb/neuralprocesses/workflows/CI/badge.svg)](https://github.com/wesselb/neuralprocesses/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/wesselb/neuralprocesses/badge.svg?branch=main)](https://coveralls.io/github/wesselb/neuralprocesses?branch=master)

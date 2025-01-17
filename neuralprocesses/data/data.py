@@ -39,11 +39,7 @@ class AbstractGenerator(metaclass=abc.ABCMeta):
         Returns:
             generator: Generator for an epoch.
         """
-
-        def lazy_gen_batch():
-            return self.generate_batch()
-
-        return (lazy_gen_batch() for _ in range(self.num_batches))
+        return (self.generate_batch() for _ in range(self.num_batches))
 
 
 class DataGenerator(AbstractGenerator):
